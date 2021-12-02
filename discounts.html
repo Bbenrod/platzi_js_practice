@@ -7,7 +7,29 @@
     <title>Porcentages & Discounts</title>
 </head>
 <body>
-    <h1>Porcentages & Discounts</h1>
+    <header>
+        <h1>Porcentages & Discounts</h1>
+    </header>
+    <section>
+        <h2>Find the price to pay for your products with discount</h2>
+
+        <form>
+            <label>
+                Write the price of your product:
+                <input id="inputPrice" type="number">
+            </label>
+            <label>
+                Write the discount of your product:
+                <input id="inputDiscount" type="number">
+            </label>
+
+            <button type="button" onclick="calculatePriceDiscountButton()">
+                Find price with discount
+            </button>
+
+            <p id="result"></p>
+        </form>
+    </section>
 
     <script src="discounts.js"></script>
 </body>
