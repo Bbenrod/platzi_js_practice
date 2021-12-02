@@ -7,8 +7,55 @@
     <title>Geometric figures</title>
 </head>
 <body>
-    <h1>Geometric figures</h1>
-
+    <header>
+        <h1>Geometric figures</h1>
+        <p>This is the first part of the practice course of javaScript</p>
+    </header>
+    <section class="square">
+        <h2>Find the area and perimeter of a square</h2>
+        <form action="">
+            <label>
+                Write the measure of the square: 
+                <input id="square_input" type="number">
+            </label>
+            <button type="button" onclick="calculatePerimeterSquare()">Find perimeter</button>
+            <button type="button"onclick="calculateAreaSquare()">Find area</button>
+        </form>
+    </section>
+    <section class="triangle">
+        <h2>Find the area and perimeter of a triangle</h2>
+        <form action="">
+            <label>
+                Write the measure of side A on the triangle: 
+                <input id="triangle_input_a" type="number">
+            </label>
+            <label>
+                Write the measure of side B <span>(Base)</span> on the triangle: 
+                <input id="triangle_input_b" type="number">
+            </label>
+            <label>
+                Write the measure of side C on the triangle: 
+                <input id="triangle_input_c" type="number">
+            </label>
+            <label>
+                Write the measure of the height of the triangle <span>(Opcional)</span>: 
+                <input id="triangle_input_h" type="number">
+            </label>
+            <button type="button" onclick="calculatePerimeterTriangle()">Find perimeter</button>
+            <button type="button"onclick="calculateAreaTriangle()">Find area</button>
+        </form>
+    </section>
+    <section class="circle">
+        <h2>Find the area and perimeter of a circle</h2>
+        <form action="">
+            <label>
+                Write the measure of the radius of the circle: 
+                <input id="circle_input" type="number">
+            </label>
+            <button type="button" onclick="calculateCircumferenceCircle()">Find circumference</button>
+            <button type="button"onclick="calculateAreaCircle()">Find area</button>
+        </form>
+    </section>
     <script src="figures.js"></script>
 </body>
 </html>
