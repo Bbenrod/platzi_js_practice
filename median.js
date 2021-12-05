@@ -17,30 +17,14 @@ const isEven = (number) => {
 
 //const isEven = (x) => (x % 2 === 0);
 
-const order = (first,second) =>{
-    if(first < second){
-        console.log("a");
-        return first;
-    }else{
-        console.log("b");
-        return second;
-    }
-}
-
-
 //Median
 const median = (list) =>{
     //Sort funtion
-
+    const order = (first,second) =>(
+        first - second
+    );
     //Sort array
-    const orderList = list.sort((first,second) =>{
-        if(first < second){
-            console.log("a");
-            return first;
-        }else
-            return second;
-    }
-    ).pop();
+    const orderList = list.sort(order);
 
 
     //Get median
