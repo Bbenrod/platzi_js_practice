@@ -10,3 +10,9 @@
 	- Calculate measure on html
 
 ## Workshop #2: Percentages and Discounts
+
+
+
+## Workshop #3: Average, median and mode
+
+This workshop is programmed  using **Single Responsibility**
