@@ -13,7 +13,7 @@
     <section>
         <h2>Find the price to pay for your products with discount</h2>
 
-        <form>
+        <form class="discount">
             <label>
                 Write the price of your product:
                 <input id="inputPrice" type="number">
@@ -22,12 +22,35 @@
                 Write the discount of your product:
                 <input id="inputDiscount" type="number">
             </label>
+            <label>
+                If you have it, write the coupon discount code of your product:
+                <input id="inputCoupon" type="text">
+            </label>
 
             <button type="button" onclick="calculatePriceDiscountButton()">
                 Find price with discount
             </button>
 
             <p id="result"></p>
+        </form>
+        <form class="coupon">
+            <h2>Write a new coupon</h2>
+            <label> 
+                Write coupon code:
+                <input id="inputCouponName" type="text">
+            </label>
+            <label>
+                Write coupon amount:
+                <input id="inputCouponAmount" type="number">
+            </label>
+            <label>
+                Write coupon discount:
+                <input id="inputCouponDiscount" type="number">
+            </label>
+
+            <button type="button" onclick="addCouponButton()">
+                Add coupon
+            </button>
         </form>
     </section>
 
