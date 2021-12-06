@@ -15,4 +15,6 @@
 
 ## Workshop #3: Average, median and mode
 
-This workshop is programmed  using **Single Responsibility**
+Starting this workshop, all will be programmed using **Single Responsibility**
+
+## Workshop #4: Salary
