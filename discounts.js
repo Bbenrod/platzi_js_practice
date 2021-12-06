@@ -64,11 +64,6 @@ let coupons = {
     }
 }
 
-const addCoupon = (n,a) => {
-    //n -> Name of coupon
-    //a -> Amount of coupons
-
-}
 
 //Html Functions--------
 const calculatePriceDiscountButton = () =>{
