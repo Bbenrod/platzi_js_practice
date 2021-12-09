@@ -11,7 +11,12 @@
 
 ## Workshop #2: Percentages and Discounts
 
+- I created a program & page where you can calculate a discount for percentages and coupons
 
+##	Commits
+	-Funtion to discounting
+	-Working in html
+	-Working to coupons
 
 ## Workshop #3: Average, median and mode
 
